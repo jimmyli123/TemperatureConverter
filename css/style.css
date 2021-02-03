@@ -1,0 +1,85 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: rgb(255, 204, 102);
+     font-family:'Fraunces', Courier, monospace;
+     /* background-image: url('thermo.jpeg'); */
+     background-repeat: no-repeat;
+     background-size: 500px 300px;
+     background-attachment: fixed;
+     background-position: center;
+     
+}
+label {
+     font-size: 30px;
+}
+form { 
+     color: red;
+     margin-top: 15%;
+     text-align: center;
+}
+
+label {
+     font-weight: bold;
+}
+select {
+     display: block;
+     margin: auto;
+     margin-top: 15px;
+}
+
+#input {
+     display: block;
+     margin: auto;
+     margin-top: 50px;
+}
+#check {
+     display: block;
+     margin: auto;
+     margin-top: 15px;
+}
+
+span {
+     padding-top: 20px;
+     display: block;
+     text-align: center;
+     font-size: 50px;
+     font-weight: bold;
+
+}
+
+#check {
+     padding: 3px 5px;
+     background-color: black;
+     color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
